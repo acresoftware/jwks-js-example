@@ -1,0 +1,24 @@
+{
+  "name": "jwks-js-example",
+  "version": "1.0.0",
+  "description": "A example for converting a PEM file to a JWKS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acresoftware/jwks-js-example.git"
+  },
+  "author": "Acre Platforms Ltd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acresoftware/jwks-js-example/issues"
+  },
+  "homepage": "https://github.com/acresoftware/jwks-js-example#readme",
+  "dependencies": {
+    "rsa-pem-to-jwk": "^1.1.3",
+    "uuid": "^8.3.2"
+  }
+}
